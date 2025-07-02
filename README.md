@@ -13,7 +13,8 @@ Para reproduzir o ambiente Python local:
 
 bash
 venv\Scripts\activate
-No Linux/macOS:
+
+- No Linux/macOS:
 
 bash
 source venv/bin/activate
