@@ -1,18 +1,18 @@
 ## Gerência de Redes Distribuída com Node.js e Python
-Este projeto demonstra uma solução para gerência de redes distribuída, utilizando a capacidade de orquestração do {Node.js} e a versatilidade de execução de scripts do {Python}. Ele permite a execução remota de comandos e scripts Python em um servidor backend, útil para tarefas como verificações de conectividade, inspeção de sistemas de arquivos e leitura de logs.
+Este projeto demonstra uma solução para gerência de redes distribuída, utilizando a capacidade de orquestração do Node.js e a versatilidade de execução de scripts do Python. Ele permite a execução remota de comandos e scripts Python em um servidor backend, útil para tarefas como verificações de conectividade, inspeção de sistemas de arquivos e leitura de logs.
 
 ## Como Funciona?
 A arquitetura se baseia na comunicação \textbf{RESTful} via HTTP:
 
-1. Um \textbf{cliente} (como Postman ou Insomnia) envia uma requisição \texttt{POST} contendo código Python para a API Node.js.
+1. Um cliente (como Postman ou Insomnia) envia uma requisição POST contendo código Python para a API Node.js.
 
-2. A aplicação \textbf{Node.js} (com Express e Axios) recebe essa requisição e a repassa para o servidor Flask em Python.
+2. A aplicação Node.js (com Express e Axios) recebe essa requisição e a repassa para o servidor Flask em Python.
 
-3. A aplicação \textbf{Flask} (Python) salva o código Python recebido em um arquivo temporário e o executa usando \texttt{subprocess.run()}.
+3. A aplicação Flask (Python) salva o código Python recebido em um arquivo temporário e o executa usando subprocess.run().
 
 4. A saída (ou erros) da execução do script é capturada pelo Flask e retornada para o Node.js.
 
-5. O \textbf{Node.js} retransmite essa resposta para o cliente original.
+5. O Node.js retransmite essa resposta para o cliente original.
 
 ## Tecnologias Utilizadas
 - Node.js / Express: Orquestração da API e comunicação inicial.
