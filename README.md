@@ -1,5 +1,5 @@
 ## Gerência de Redes Distribuída com Node.js e Python
-Este projeto demonstra uma solução para \textbf{gerência de redes distribuída}, utilizando a capacidade de orquestração do \textbf{Node.js} e a versatilidade de execução de scripts do \textbf{Python}. Ele permite a execução remota de comandos e scripts Python em um servidor backend, útil para tarefas como verificações de conectividade, inspeção de sistemas de arquivos e leitura de logs.
+Este projeto demonstra uma solução para gerência de redes distribuída, utilizando a capacidade de orquestração do {Node.js} e a versatilidade de execução de scripts do {Python}. Ele permite a execução remota de comandos e scripts Python em um servidor backend, útil para tarefas como verificações de conectividade, inspeção de sistemas de arquivos e leitura de logs.
 
 ## Como Funciona?
 A arquitetura se baseia na comunicação \textbf{RESTful} via HTTP:
