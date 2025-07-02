@@ -1,0 +1,8 @@
+try:
+    with open("mylog.txt", "r") as f:
+        content = f.read()
+        print("Conteúdo de testelogs.txt:\n" + content)
+except FileNotFoundError:
+    print("Erro: testelogs.txt não encontrado.")
+except Exception as e:
+    print(f"Erro ao ler arquivo: {e}")
