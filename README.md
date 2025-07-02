@@ -11,12 +11,12 @@ Para reproduzir o ambiente Python local:
 
 - No Windows:
 
-bash
+  ```bash
 venv\Scripts\activate
 
 - No Linux/macOS:
 
-bash
+   ```bash
 source venv/bin/activate
 
 3. Execute o projeto normalmente
