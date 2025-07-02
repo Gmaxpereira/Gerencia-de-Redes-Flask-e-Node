@@ -2,7 +2,7 @@
 Este projeto demonstra uma solução para gerência de redes distribuída, utilizando a capacidade de orquestração do Node.js e a versatilidade de execução de scripts do Python. Ele permite a execução remota de comandos e scripts Python em um servidor backend, útil para tarefas como verificações de conectividade, inspeção de sistemas de arquivos e leitura de logs.
 
 ## Como Funciona?
-A arquitetura se baseia na comunicação \textbf{RESTful} via HTTP:
+A arquitetura se baseia na comunicação RESTful via HTTP:
 
 1. Um cliente (como Postman ou Insomnia) envia uma requisição POST contendo código Python para a API Node.js.
 
